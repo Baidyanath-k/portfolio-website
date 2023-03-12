@@ -1,0 +1,689 @@
+@media (min-width: 0px) and (max-width: 575px) {
+
+    .navbar {
+        padding: 0;
+        margin: 0;
+        background: #212428;
+    }
+
+    .sticky-header {
+        width: 100%;
+    }
+
+    .my_nav .collapse .navbar-nav .nav-item .nav-link::after {
+        border-bottom: 2px solid transparent;
+    }
+
+    .navbar-toggler {
+        color: #FF014F;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .my_nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #B1C5C9;
+        margin-right: 5px;
+        padding: 10px 0;
+        position: relative;
+        text-transform: uppercase;
+        transition: all 0.3s linear;
+    }
+
+    #navbarSupportedContent {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #navbarSupportedContent .mybtn a {
+        margin-left: 0 !important;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    nav ul li .nav-link {
+        padding-left: 0 !important;
+        font-size: 18px;
+        padding: 15px 0;
+        border-top: 1px solid #fff;
+    }
+
+    nav ul li:last-child .nav-link {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 15px;
+    }
+
+    .banner_left_first h5 {
+        text-align: center;
+    }
+
+    .banner_left_first h2 {
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .typed {
+        text-align: center;
+    }
+
+    .typed h3 {
+        font-size: 26px;
+        line-height: 25px;
+    }
+
+    .banner_left_first p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner_left_second {
+        margin-top: 70px;
+    }
+
+    .find {
+        text-align: center;
+    }
+
+    .find_title h4 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .find_awesome ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .skill {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .skill_title h4 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .skill_awesome ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .my_img figure img {
+        height: 590px;
+        width: 100%;
+    }
+
+    .about_header h2::before {
+        top: -59%;
+        color: #FF014F;
+        z-index: 1;
+        letter-spacing: 0;
+        font-size: 24px;
+    }
+
+    .about_header h2::after {
+        width: 45%;
+        left: 27%;
+        bottom: 2px;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .about_body_left h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about_body_left h3 span {
+        text-indent: 5px;
+        font-size: 16px;
+    }
+
+    .about_body_left p {
+        text-align: center;
+    }
+
+    .about_body_right {
+        margin-top: 25px;
+    }
+
+    .about_body_right_name ul {
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    .about_body_right_email ul {
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    .about_body_right_email ul li a {
+        font-size: 14px;
+    }
+
+    .about_body_right_age ul {
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    .about_body_right_from ul {
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    .about_body_right_CV {
+        text-align: center;
+    }
+
+    .counterup {
+        border-right: 0;
+    }
+
+    .service_head h2::before {
+        top: -59%;
+        color: #FF014F;
+        z-index: 1;
+        letter-spacing: 0;
+        font-size: 25px;
+    }
+
+    .service_head h2::after {
+        width: 45%;
+        left: 28%;
+        bottom: 2px;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .ser_body_awesome {
+        text-align: center;
+    }
+
+    .ser_body_head h4 {
+        text-align: center;
+    }
+
+    .ser_body_para {
+        text-align: center;
+    }
+
+    .summery_head h2::before {
+        top: -59%;
+        color: #FF014F;
+        z-index: 1;
+        letter-spacing: 0;
+        font-size: 25px;
+    }
+
+    .summery_head h2::after {
+        width: 30%;
+        left: 35%;
+        bottom: 2px;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .education_head h2 {
+        text-align: center;
+    }
+
+    .main_service_body {
+        height: auto;
+        margin-bottom: 15px !important;
+    }
+
+    .edu_sec_header {
+        text-align: center;
+    }
+
+    .edu_sec_header h4 {
+        font-size: 25px;
+    }
+
+    .summery_footer_head h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .port_head h2::before {
+        top: -59%;
+        color: #FF014F;
+        z-index: 1;
+        letter-spacing: 0;
+        font-size: 25px;
+    }
+
+    .port_head h2::after {
+        width: 30%;
+        left: 35%;
+        bottom: 2px;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .isotop_btn button {
+        padding: 0 6px;
+        text-indent: 8px;
+        line-height: 35px;
+    }
+
+    .isotop_body {
+        padding-top: 50px;
+    }
+
+    .testimonial_head h2::before {
+        top: -59%;
+        color: #FF014F;
+        z-index: 1;
+        letter-spacing: 0;
+        font-size: 25px;
+    }
+
+    .testimonial_head h2::after {
+        width: 30%;
+        left: 35%;
+        bottom: 2px;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .test_slidder_sec_left_para a {
+        font-size: 25px;
+    }
+
+    .test_slidder_sec_first {
+        display: block;
+    }
+
+    .test_slidder_head {
+        width: 100%;
+        text-align: center;
+    }
+
+    .test_slidder_star {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .test_slidder_star {
+        text-align: center;
+    }
+
+    .test_slidder_sec_second h4 {
+        line-height: 35px;
+    }
+
+    .test_slidder_sec_para p {
+        height: 300px;
+    }
+
+    .contact_head h2::before {
+        top: -59%;
+        color: #FF014F;
+        z-index: 1;
+        letter-spacing: 0;
+        font-size: 25px;
+    }
+
+    .contact_head h2::after {
+        width: 30%;
+        left: 35%;
+        bottom: 2px;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .contact_body_left_para {
+        text-align: center;
+    }
+
+    .contact_body_left_para h3 {
+        font-size: 22px;
+    }
+
+    .contact_body_left_num {
+        text-align: center;
+    }
+
+    .test_slidder_sec_second {
+        text-align: center;
+    }
+
+    #con_email {
+        font-size: 12px;
+    }
+
+    #con_email span {}
+
+    #con_email span a {
+        font-size: 11px;
+    }
+
+    .contact_body_left_cont {
+        text-align: center;
+    }
+
+    .all_footer {
+        padding: 20px 0;
+    }
+
+    .all_footer p {
+        line-height: 25px;
+    }
+
+    .top_scroll {
+        height: 40px;
+        width: 40px;
+        bottom: 12px;
+        right: 12px;
+    }
+    .contact_body_left_awesome ul li{
+        margin-right: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        padding: 0 !important;
+        margin: 0 !important;
+        background: #212428;
+    }
+
+    .my_nav .collapse .navbar-nav .nav-item .nav-link::after {
+        border-bottom: 2px solid transparent;
+    }
+
+    .navbar-toggler {
+        color: #FF014F;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .my_nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #B1C5C9;
+        margin-right: 5px;
+        padding: 10px 0;
+        position: relative;
+        text-transform: uppercase;
+        transition: all 0.3s linear;
+    }
+
+    #navbarSupportedContent {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #navbarSupportedContent .mybtn a {
+        margin-left: 0 !important;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    nav ul li .nav-link {
+        padding-left: 0 !important;
+        font-size: 18px;
+        padding: 15px 0;
+        border-top: 1px solid #fff;
+    }
+
+    nav ul li:last-child .nav-link {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 15px;
+    }
+
+    .banner_left_first h2 {
+        font-size: 40px;
+    }
+
+    .banner_left_second {
+        margin-top: 100px;
+    }
+
+    .about_header h2::before {
+        top: -67%;
+        font-size: 35px;
+        color: #FF014F;
+        z-index: 1;
+    }
+
+    .about_header h2::after {
+        width: 22%;
+        left: 40%;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .about_body_right {
+        padding-top: 35px;
+    }
+
+    .counterup {
+        border-right: none;
+    }
+
+    .service_head h2::before {
+        top: -67%;
+        font-size: 25px;
+        color: #FF014F;
+        z-index: 1;
+    }
+
+    .service_head h2::after {
+        width: 22%;
+        left: 40%;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .summery_head h2::before {
+        top: -67%;
+        font-size: 25px;
+        color: #FF014F;
+        z-index: 1;
+    }
+
+    .summery_head h2::after {
+        width: 22%;
+        left: 39%;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .port_head h2::before {
+        top: -67%;
+        font-size: 25px;
+        color: #FF014F;
+        z-index: 1;
+    }
+
+    .port_head h2::after {
+        width: 22%;
+        left: 39%;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .testimonial_head h2::before {
+        top: -67%;
+        font-size: 25px;
+        color: #FF014F;
+        z-index: 1;
+        left: 50%;
+    }
+
+    .testimonial_head h2::after {
+        width: 22%;
+        left: 39%;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .contact_head h2::before {
+        top: -67%;
+        font-size: 25px;
+        color: #FF014F;
+        z-index: 1;
+        left: 50%;
+    }
+
+    .contact_head h2::after {
+        width: 22%;
+        left: 39%;
+        border-bottom: 2px solid #FF014F;
+    }
+
+    .main_service_body {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        padding: 0 !important;
+        margin: 0 !important;
+        background: #212428;
+    }
+
+    .my_nav .collapse .navbar-nav .nav-item .nav-link::after {
+        border-bottom: 2px solid transparent;
+    }
+
+    .navbar-toggler {
+        color: #FF014F;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .my_nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #B1C5C9;
+        margin-right: 5px;
+        padding: 10px 0;
+        position: relative;
+        text-transform: uppercase;
+        transition: all 0.3s linear;
+    }
+
+    #navbarSupportedContent {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #navbarSupportedContent .mybtn a {
+        margin-left: 0 !important;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    nav ul li .nav-link {
+        padding-left: 0 !important;
+        font-size: 18px;
+        padding: 15px 0;
+        border-top: 1px solid #fff;
+    }
+
+    nav ul li:last-child .nav-link {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 15px;
+    }
+
+    .skill {
+        float: right;
+    }
+
+    .banner_left_second {
+        margin-top: 100px;
+    }
+
+    .about_header h2::before {
+        width: 80%;
+    }
+
+    .about_body_right {
+        padding-top: 50px;
+    }
+
+    .counterup {
+        border-right: 0;
+    }
+
+    .service_head h2::before {
+        width: 80%;
+    }
+
+    .summery_head h2::before {
+        left: 38%;
+    }
+
+    .port_head h2::before {
+        left: 35%;
+    }
+
+    .testimonial_head h2::before {
+        left: 25%;
+    }
+
+    .contact_head h2::before {
+        left: 38%;
+    }
+
+    .common {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .edu_sec{
+        height: 550px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_left_first h2 {
+        line-height: 48px;
+    }
+
+    .about_header h2::before {
+        width: 65%;
+    }
+
+    .summery_head h2::before {
+        left: 48%;
+    }
+
+    .port_head h2::before {
+        left: 45%;
+    }
+
+    .testimonial_head h2::before {
+        left: 40%;
+    }
+
+    .test_slidder_star i {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .test_slidder_sec_second h4 {
+        padding-bottom: 0px;
+    }
+
+    .test_slidder_sec_first {
+        padding: 5px 0;
+    }
+
+    .contact_body_right {
+        padding: 22px 30px;
+    }
+    .edu_sec{
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 1400px) {}
