@@ -1327,7 +1327,7 @@ html {
     position: absolute;
     content: "";
     bottom: -7px;
-    left: 14px;
+    left: 6px;
     width: 0%;
     height: 100%;
     border-bottom: 3px solid #FF014F;
@@ -1339,7 +1339,7 @@ html {
     color: #FF014F;
 }
 .isotop_btn button:hover:before{
-    width: 80%;
+    width: 100%;
 }
 .isotop_body {
     padding-top: 100px;
@@ -1353,7 +1353,7 @@ html {
     z-index: 1;
     transition: 0.5s all ease-in-out;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     width: 100%;
     overflow: hidden;
 }
@@ -1373,6 +1373,16 @@ html {
 .is_sec:hover::before{
     opacity: 1;
 }
+.iso-header{
+    font-family: 'Montserrat', sans-serif;
+}
+.iso-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px 0;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
 .is_sec_img{
     width: 100%;
     height: 360px;
@@ -1388,6 +1398,14 @@ html {
 .is_sec:hover .is_sec_img img{
     transform: scale(1.1);
 }
+.iso_para{}
+.iso_para p{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 25px;
+}
 .is_sec_footer {
     display: flex;
     width: 100%;
@@ -1396,7 +1414,7 @@ html {
 .is_sec_name{
     width: 50%;
 }
-.is_sec_name h2{
+.is_sec_name a{
     font-size: 23px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
